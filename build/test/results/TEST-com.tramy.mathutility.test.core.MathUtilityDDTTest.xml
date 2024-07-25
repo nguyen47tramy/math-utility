@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-31P2DPD" name="com.tramy.mathutility.test.core.MathUtilityDDTTest" skipped="0" tests="6" time="0.07" timestamp="2024-07-25T22:32:44">
+<testsuite errors="0" failures="1" hostname="DESKTOP-31P2DPD" name="com.tramy.mathutility.test.core.MathUtilityDDTTest" skipped="0" tests="6" time="0.073" timestamp="2024-07-25T22:47:46">
   <properties>
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-20\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
-    <property name="javac.test.classpath" value=":build/classes:C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\junit-4.13.2.jar" />
+    <property name="javac.test.classpath" value=":build/classes:hamcrest-core-1.3.jar:junit-4.13.2.jar" />
     <property name="java.specification.version" value="20" />
     <property name="jar.index.metainf" value="false" />
     <property name="libs.spring-framework500.classpath" value="C:\Program Files\NetBeans-20\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-aop-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-aspects-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-beans-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-context-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-context-indexer-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-context-support-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-core-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-expression-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-instrument-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-jcl-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-jdbc-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-jms-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-messaging-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-orm-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-oxm-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-test-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-tx-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-web-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-webflux-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-webmvc-5.2.9.RELEASE.jar;C:\Program Files\NetBeans-20\netbeans\java\modules\ext\spring-5\spring-websocket-5.2.9.RELEASE.jar" />
@@ -17,7 +17,7 @@
     <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.tramy.mathutility.test.core.MathUtilityDDTTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\test\results\TEST-com.tramy.mathutility.test.core.MathUtilityDDTTest.xml crashfile=C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\junitvmwatcher12526180019304510721.properties propsfile=C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\junit1882387578946819991.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.tramy.mathutility.test.core.MathUtilityDDTTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\test\results\TEST-com.tramy.mathutility.test.core.MathUtilityDDTTest.xml crashfile=C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\junitvmwatcher15528289125057757936.properties propsfile=C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\junit14987062958292489079.properties" />
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
@@ -104,7 +104,7 @@
     <property name="debug-transport-by-os" value="dt_shmem" />
     <property name="libs.jsf20.src" value="" />
     <property name="libs.javaee-api-8.0.javadoc" value="C:\Program Files\NetBeans-20\netbeans\enterprise\docs\javaee-doc-api.jar" />
-    <property name="tmp.manifest.file" value="C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\null440274604" />
+    <property name="tmp.manifest.file" value="C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\null372492539" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="unnamed.module.internal" value="true" />
     <property name="libs.jakartaee-api-10.0.javadoc" value="C:\Program Files\NetBeans-20\netbeans\enterprise\docs\jakartaee10-doc-api.jar" />
@@ -115,7 +115,7 @@
     <property name="os.arch" value="amd64" />
     <property name="build.generated.dir" value="build/generated" />
     <property name="libs.groovy-all.javadoc" value="" />
-    <property name="file.reference.junit-4.13.2.jar" value="C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\junit-4.13.2.jar" />
+    <property name="file.reference.junit-4.13.2.jar" value="junit-4.13.2.jar" />
     <property name="libs.jakartaee-api-8.0.classpath" value="C:\Program Files\NetBeans-20\netbeans\enterprise\modules\ext\jakarta.jakartaee-api-8.0.0.jar" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans-20\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.javaee-endorsed-api-6.0.src" value="" />
@@ -156,7 +156,7 @@
     <property name="libs.CopyLibs.classpath" value="C:\Program Files\NetBeans-20\netbeans\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="sun.os.patch.level" value="" />
     <property name="javadoc.html5" value="false" />
-    <property name="javac.test.processorpath" value=":build/classes:C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\junit-4.13.2.jar" />
+    <property name="javac.test.processorpath" value=":build/classes:hamcrest-core-1.3.jar:junit-4.13.2.jar" />
     <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
     <property name="libs.javaee-web-api-8.0.maven-pom" value="" />
     <property name="netbeans.dirs" value="C:\Program Files\NetBeans-20\netbeans\nb;C:\Program Files\NetBeans-20\netbeans\ergonomics;C:\Program Files\NetBeans-20\netbeans\ide;C:\Program Files\NetBeans-20\netbeans\extide;C:\Program Files\NetBeans-20\netbeans\java;C:\Program Files\NetBeans-20\netbeans\apisupport;C:\Program Files\NetBeans-20\netbeans\webcommon;C:\Program Files\NetBeans-20\netbeans\websvccommon;C:\Program Files\NetBeans-20\netbeans\enterprise;C:\Program Files\NetBeans-20\netbeans\mobility;C:\Program Files\NetBeans-20\netbeans\profiler;C:\Program Files\NetBeans-20\netbeans\python;C:\Program Files\NetBeans-20\netbeans\php;C:\Program Files\NetBeans-20\netbeans\identity;C:\Program Files\NetBeans-20\netbeans\harness;C:\Program Files\NetBeans-20\netbeans\cnd;C:\Program Files\NetBeans-20\netbeans\cndext;C:\Program Files\NetBeans-20\netbeans\cpplite;C:\Program Files\NetBeans-20\netbeans\dlight;C:\Program Files\NetBeans-20\netbeans\groovy;C:\Program Files\NetBeans-20\netbeans\extra;C:\Program Files\NetBeans-20\netbeans\javacard;C:\Program Files\NetBeans-20\netbeans\javafx;C:\Program Files\NetBeans-20\netbeans\rust" />
@@ -176,7 +176,7 @@
     <property name="javac.test.sourcepath" value="C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\empty" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="includes" value="**" />
-    <property name="file.reference.hamcrest-core-1.3.jar" value="C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="file.reference.hamcrest-core-1.3.jar" value="hamcrest-core-1.3.jar" />
     <property name="libs.jsf12.javadoc" value="C:\Program Files\NetBeans-20\netbeans\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.hamcrest.classpath" value="C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="javadoc.splitindex" value="true" />
@@ -302,7 +302,7 @@
     <property name="java.vm.info" value="mixed mode, sharing" />
     <property name="libs.primefaces.classpath" value="C:\Program Files\NetBeans-20\netbeans\enterprise\modules\ext\primefaces\primefaces-5.0.jar" />
     <property name="libs.jaxws21.maven-pom" value="" />
-    <property name="run.test.classpath" value=":build/classes:C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\junit-4.13.2.jar:build/test/classes" />
+    <property name="run.test.classpath" value=":build/classes:hamcrest-core-1.3.jar:junit-4.13.2.jar:build/test/classes" />
     <property name="dist.jlink.output" value="dist/jlink/math-utility" />
     <property name="java.class.version" value="64.0" />
     <property name="javadoc.encoding.used" value="UTF-8" />
@@ -348,7 +348,7 @@
     <property name="libs.JWSAntTasks.src" value="" />
     <property name="ant.home" value="C:\Program Files\NetBeans-20\netbeans\extide\ant" />
     <property name="libs.spring-webmvc3.0.src" value="" />
-    <property name="debug.test.classpath" value=":build/classes:C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\junit-4.13.2.jar:build/test/classes" />
+    <property name="debug.test.classpath" value=":build/classes:hamcrest-core-1.3.jar:junit-4.13.2.jar:build/test/classes" />
     <property name="have.tests" value="true" />
     <property name="javac.external.vm" value="true" />
     <property name="testng.debug.mode" value="" />
@@ -361,7 +361,7 @@
     <property name="user.properties.file" value="C:\Users\Thinkpad\AppData\Roaming\NetBeans\20\build.properties" />
     <property name="libs.javaee-api-6.0.src" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
-    <property name="java.class.path" value="C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\classes;C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;C:\Program Files\NetBeans-20\netbeans\platform\modules\ext\junit-4.13.2.jar;C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\test\classes;C:\Program Files\NetBeans-20\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-20\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-20\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-20\netbeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\classes;C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\hamcrest-core-1.3.jar;C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\junit-4.13.2.jar;C:\Users\Thinkpad\OneDrive\Desktop\testing\math-utility\build\test\classes;C:\Program Files\NetBeans-20\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-20\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-20\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-20\netbeans\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="ap.supported.internal" value="true" />
@@ -425,12 +425,17 @@
     <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-20\netbeans\enterprise\ant\extra\jspcompile.jar" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-20\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-20\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-20\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
-  <testcase classname="com.tramy.mathutility.test.core.MathUtilityDDTTest" name="testGetFactorialGivenRightArgumentReturnsWell[0]" time="0.008" />
+  <testcase classname="com.tramy.mathutility.test.core.MathUtilityDDTTest" name="testGetFactorialGivenRightArgumentReturnsWell[0]" time="0.007" />
   <testcase classname="com.tramy.mathutility.test.core.MathUtilityDDTTest" name="testGetFactorialGivenRightArgumentReturnsWell[1]" time="0.0" />
   <testcase classname="com.tramy.mathutility.test.core.MathUtilityDDTTest" name="testGetFactorialGivenRightArgumentReturnsWell[2]" time="0.0" />
   <testcase classname="com.tramy.mathutility.test.core.MathUtilityDDTTest" name="testGetFactorialGivenRightArgumentReturnsWell[3]" time="0.0" />
   <testcase classname="com.tramy.mathutility.test.core.MathUtilityDDTTest" name="testGetFactorialGivenRightArgumentReturnsWell[4]" time="0.0" />
-  <testcase classname="com.tramy.mathutility.test.core.MathUtilityDDTTest" name="testGetFactorialGivenRightArgumentReturnsWell[5]" time="0.0" />
+  <testcase classname="com.tramy.mathutility.test.core.MathUtilityDDTTest" name="testGetFactorialGivenRightArgumentReturnsWell[5]" time="0.003">
+    <failure message="expected:&lt;720&gt; but was:&lt;120&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;720&gt; but was:&lt;120&gt;
+	at com.tramy.mathutility.test.core.MathUtilityDDTTest.testGetFactorialGivenRightArgumentReturnsWell(MathUtilityDDTTest.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+</failure>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
