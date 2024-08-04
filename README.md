@@ -5,6 +5,12 @@
 
 This repository contains a customized math utility library for common mathematical operations. 
 
+### The repository contain:
+* MathUtility library for operate factorial (a Java-based source code)
+* Unit Testing with JUnit framework 
+* GitHub Actions for CI
+* Regression Test
+
 ## Installation
 
 ## Screenshots
